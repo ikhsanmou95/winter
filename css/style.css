@@ -1,0 +1,82 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(27, 27, 27);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.winters {
+    background: #fff;
+    width: 220px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.winters ul li {
+    list-style: none;
+    font-size: 12px;
+    float: left;
+}
+
+.winters h2 {
+    padding: 10px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.winters p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.winters a {
+    color: blue;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+
+.winters:hover {
+    background-color: rgb(62, 62, 62);
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.winters-image {
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.winter-1 {
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dsc1998-1574720123.jpg);
+}
+
+.winter-2 {
+    background-image: url(https://talesofabackpacker.com/wp-content/uploads/2021/02/The-Best-East-Coast-Road-Trips-in-the-USA.jpg);
+    
+}
+
+.winter-3 {
+    background-image: url(https://visitkangaroovalley.com.au/wp-content/uploads/2016/08/2263%EF%B9%96itokqxvL0ZHv.jpg);
+}
+
+.winter-4 {
+    background-image: url(https://540934-1733880-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/09/Upper-Kangaroo-Valley-from-Belmore-Falls-lookout-1024x658.jpg);
+}
+
